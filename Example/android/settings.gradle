@@ -1,3 +1,7 @@
 rootProject.name = 'Example'
 
+include ':react-native-android-dialog'
 include ':app'
+
+project(':react-native-android-dialog').projectDir = new File(rootProject.projectDir,
+  '../node_modules/react-native-android-dialog/android')
