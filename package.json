@@ -1,0 +1,14 @@
+{
+  "name": "react-native-android-dialog",
+  "version": "0.0.1",
+  "description": "React Native module to render Android dialogues",
+  "keywords": ["react-native", "android", "dialog"],
+  "homepage": "https://github.com/luggg/react-native-android-dialog",
+  "author": "Pedro Belo",
+  "files": [
+    "android/",
+    "index.android.js",
+    "index.ios.js"
+  ],
+  "license": "MIT"
+}

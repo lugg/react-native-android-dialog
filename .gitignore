@@ -1,0 +1,9 @@
+android.iml
+local.properties
+android/gradle
+android/build
+node_modules/
+gradlew
+gradlew.bat
+.gradle
+.idea
