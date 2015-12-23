@@ -16,10 +16,16 @@ import android.view.View;
 import android.util.Log;
 
 public class ReactDialogPackage implements ReactPackage {
+    private View mRootView = null;
+
+    public ReactDialogPackage(View rootView) {
+        mRootView = rootView;
+    }
+
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Arrays.<NativeModule>asList(
-            new ReactDialogModule(reactContext)
+            new ReactDialogModule(reactContext, mRootView)
         );
     }
 

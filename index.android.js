@@ -13,9 +13,10 @@ var NativeDialog = React.NativeModules.DialogAndroid;
 
 var DialogAndroid = {
   show: function (
+    title: string,
     message: string,
   ): void {
-    NativeDialog.show(message);
+    NativeDialog.show(title, message);
   }
 };
 
